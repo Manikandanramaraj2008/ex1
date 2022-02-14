@@ -1,20 +1,19 @@
 import React from 'react';
 
-
 //  Task 1
 
 // function Card(){
-//     return(
-//         <div className="Card">
-//   <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style={{
-//       width:"100%"}} />
-//   <div className="container">
-//     <h4><b>Thiruchithambalam</b></h4>
-//     <p>Chidhambaram</p>
-//   </div>
+//   return(
+//       <div className="Card">
+// <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style={{
+//     width:"100%"}} />
+// <div className="container">
+//   <h4><b>Thiruchithambalam</b></h4>
+//   <p>Chidhambaram</p>
+// </div>
 // </div>
 
-//     )
+//   )
 // }
 // export default Card
 
@@ -23,10 +22,10 @@ import React from 'react';
 
 // function Card(props){
 
-//   const{imgurl,name,title} =props;
+//   const{imgUrl,name,title} =props;
 //   return(
 //       <div className="Card">
-// <img src={imgurl} alt="Avatar" style={{
+// <img src={imgUrl} alt="Avatar" style={{
 //     width:"100%"}} />
 // <div className="container">
 //   <h4><b>{name}</b></h4>
@@ -45,20 +44,23 @@ function Card(props){
 
   //  for set name
 
-  // const{imgurl,name,title,setTitle} =props;
+  const{imgUrl,name,title,setTitle} =props;
 
-  //  for set title
+  //  for set title - action method
   
-   const{imgurl,name,title,action} =props;
+  //  const{imgUrl,name,title,action} =props;
   return(
       <div className="Card">
-<img src={imgurl} alt="Avatar" style={{
+<img src={imgUrl} alt="Avatar" style={{
     width:"100%"}} />
 <div className="container">
   <h4><b>{name}</b></h4>
   <p>{title}</p>
   <button onClick={(e)=>{setTitle("Name")}}>Change</button> 
-  {/* <button onClick ={action}>Change</button> */}
+ 
+  {/* action method */}
+
+    {/* <button onClick ={action}>Change</button> */}
 </div>
 </div>
 

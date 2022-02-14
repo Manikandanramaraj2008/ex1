@@ -1,5 +1,5 @@
- import React from 'react';
-import React,{useState} from 'react';
+// import React from 'react';
+ import React,{useState} from 'react';
 import './App.css';
  import Card from './components/Card';
 
@@ -72,39 +72,39 @@ import './App.css';
 
  //  Task  3
 
+//  const data = [
 
-// const data = [
-
-// {
-//       imgUrl="https://images.dinamani.com/uploads/user/imagelibrary/2022/1/16/original/vallalar_jothi.jpg",
-//       name ="Mani",
-//       title ="Ramalingam"
-
-// },
-// {
-//       imgUrl="https://1.bp.blogspot.com/-a4w5P3f85r4/VlUe0pbN-SI/AAAAAAAAMns/-CRxzUxWv54/s1600/Thiru%2BArutprakasa%2BVallalar%2B-%2BJothi.jpg",
-//       name ="Vanitha",
-//       title ="Ambala koothan" 
-//  },
-// {
-//   imgUrl="https://images.dinamani.com/uploads/user/imagelibrary/2021/1/28/original/vadalur4.gif",
-//   name ="Abinesh",
-//   title ="Ponnambalan"
-
-// },
-// {
-//   imgUrl="https://i.ytimg.com/vi/Av0cEViPYEE/hqdefault.jpg",
-//   name ="Gouwtham_Suresh",
-//   title ="Thiruchitambalam"
-
-// },
-// {
-//   imgUrl="https://i.ytimg.com/vi/BE1ZE3EuuK4/hqdefault.jpg",
-//   name ="Abinayal",
-//   title ="Dhakshanamoorthy"
-
-// }
-// ]
+//   {
+//         imgUrl :"https://images.dinamani.com/uploads/user/imagelibrary/2022/1/16/original/vallalar_jothi.jpg",
+//         name :"Mani",
+//         title :"Ramalingam"
+  
+//   },
+//   {
+//         imgUrl:"https://1.bp.blogspot.com/-a4w5P3f85r4/VlUe0pbN-SI/AAAAAAAAMns/-CRxzUxWv54/s1600/Thiru%2BArutprakasa%2BVallalar%2B-%2BJothi.jpg",
+//         name : "Vanitha",
+//         title : "Ambala koothan" 
+//    },
+//   {
+//     imgUrl : "https://images.dinamani.com/uploads/user/imagelibrary/2021/1/28/original/vadalur4.gif",
+//     name : "Abinesh",
+//     title : "Ponnambalan"
+  
+//   },
+//   {
+//     imgUrl :"https://i.ytimg.com/vi/Av0cEViPYEE/hqdefault.jpg",
+//     name :"Gouwtham_Suresh",
+//     title :"Thiruchitambalam"
+  
+//   },
+//   {
+//     imgUrl:"https://i.ytimg.com/vi/BE1ZE3EuuK4/hqdefault.jpg",
+//     name : "Abinayal",
+//     title : "Dhakshanamoorthy"
+  
+//   }
+//   ]
+  
 
 //  export default function App(){
 
@@ -127,7 +127,7 @@ import './App.css';
 // }
 
 
- //  Task  4 useState functional component/- Hookw particular event
+  // Task  4 useState functional component/- Hookw particular event
 
 // export default function App(){
 
@@ -161,4 +161,3 @@ return(
   </div>
 )
 }
-nnnmm 
